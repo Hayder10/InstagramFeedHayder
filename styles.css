@@ -1,0 +1,74 @@
+/* DEBUG */
+* {
+    font-family: 'Roboto', sans-serif;
+  }
+
+html{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 430px;
+
+}
+
+.title{
+    background-color: white;
+}
+
+.title-box{
+    width: 753px;
+}
+.webbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgrey;
+    width: 100%;
+}
+.post{
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.post-title{
+    display: flex;
+    background-color: white;
+}
+
+.post-title h2{
+    width: 710px;
+    padding-left: 20px;
+    margin-right: auto;
+}
+
+.date-box{
+    float: right;
+    position: relative;
+}
+.date-box p{
+    font-size: 130%;
+    color: gray;
+    padding-right: 10px;
+}
+
+.post-image img{
+    width: 100%;
+}
+
+.post-description{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 130%;
+}
+
+#last{
+    margin-bottom: 50px;
+}
